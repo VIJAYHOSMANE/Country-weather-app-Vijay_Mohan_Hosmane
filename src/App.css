@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.main_form{
+  width: 100vw;
+  display: flex;
+margin-top: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_input{
+  height: 30px;
+  position: relative;
+width: 250px;
+border-radius: 50px;
+/* margin-bottom: 100px; */
+}
+
+.submit_btn{
+  position: absolute;
+/* right: 818px; */
+width: 44px;
+border-radius: 50px;
+height: 29px;
+right:40rem
+}
+
+.results_section{
+  margin-top: 100px;
+  display: flex;
+flex-direction: column;
+gap: 5px;
+font-size: 25px;
+
+}
+
+.capital_section{
+  margin-top: 100px;
+  display: flex;
+flex-direction: column;
+gap: 5px;
+font-size: 25px;
+
+}
+
+.no_input_error{
+  position: absolute;
+right: 30px;
+top: 20px;
+}
